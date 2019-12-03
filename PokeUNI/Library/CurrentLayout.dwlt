@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 563
     width: 962
     height: 384
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 17
+  controlID: 59
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 348}
   m_MaxSize: {x: 8006, y: 8048}
   vertical: 1
-  controlID: 16
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 86
+  controlID: 16
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_MinSize: {x: 817, y: 498}
   m_MaxSize: {x: 22012, y: 14048}
   vertical: 0
-  controlID: 15
+  controlID: 57
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1362
+  m_LastSelectedObjectID: 11510
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -641,9 +641,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 443d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6fbfffff42a0000182b0000
+      m_ExpandedIDs: f4f9ffffd6fbffff302b0000c62d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -741,7 +741,7 @@ MonoBehaviour:
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.023341922, y: -0.010279237, z: 0.00014984068, w: -0.9996747}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -785,20 +785,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Scripts
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources/Scripts
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\PokeUNI
+  m_LastProjectPath: D:\PokeUNIGithub\PokeUNI\PokeUNI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a2a0000
-    m_LastClickedID: 10794
-    m_ExpandedIDs: 0000000008280000102900001a2a000000ca9a3b
+    m_SelectedIDs: d42b0000
+    m_LastClickedID: 11220
+    m_ExpandedIDs: 000000000c28000014290000202a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -826,7 +826,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000008280000102900001a2a0000
+    m_ExpandedIDs: 000000000c28000014290000202a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -857,20 +857,20 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000504400001c560000c6580000140e0100b25a0100d6a901003a17020098df0100d288ffffd82a0000d82c000046340000e22f0000b23100008a780100f27801005c79010024e4000050380000b63100004c2d0000e22c000084030200444b050024220c006e2800000a300000ee310000062e0000dc2e000034330000bc41000016320000de2e0000243b000046320000100e00000c0c00004c32000066320000944d000026450000bc5f0000bc350000aa5f0000c45f00007e3e0000ee4c0000783300007a330000e4a8010094380000d4a80100ee7f0200c43500004e330000704d000096330000e0350000823200008e4d000052330000c8350000aa3800009a3300009c330000f6b00100b63800001250000042480000225200007c340000ce400000de57000018340000445c000020340000c45900000c3700000c3b0000945000000c4900004236000068520000e64c00007447000088480000c45a00006638000008440000e4490000bc580000c436000068330000a6580000dc4200006c5200000c440000e8490000ca5a00008c480000c0580000d4a0f8ffd25a0000c85800007252000058390000363b00001e3b0000aa5c0000967b0000703c00005a5d0000503500005c7c0000885e000060350000126000008c5e00006235000000000000b03c00007e7e0000587d0000627c0000083f000020500000d0300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: MusicScene
+      m_OriginalName: MusicScene
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9706
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 6}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

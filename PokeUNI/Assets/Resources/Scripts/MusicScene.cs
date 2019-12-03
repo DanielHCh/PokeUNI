@@ -15,6 +15,7 @@ public class MusicScene : MonoBehaviour
         //musicListLenght = musicList.Length;
         //audioSource = GetComponent<AudioSource>();
         //StartCoroutine(MusicLoopLogic());
+        DontDestroyOnLoad(this);
         _refAudioSources[1].PlayDelayed(_refAudioSources[0].clip.length - 0.025f);
     }
 
