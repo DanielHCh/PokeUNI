@@ -28,8 +28,7 @@ public class HomeManager : MonoBehaviour
     [SerializeField]
     private AudioSource[] _refButtonSounds;
 
-    private AudioSource soundLoginAccept;
-    private AudioSource soundLoginDeny;
+    private AudioSource soundAccept;
 
     private UserInfo user;
     private ScrollManager sc;
@@ -39,6 +38,7 @@ public class HomeManager : MonoBehaviour
     private void Start()
     {
         sc = GetComponent("ScrollManager").GetComponent<ScrollManager>();
+        soundAccept = m_homeUI.GetComponent<AudioSource>();
         //soundLoginAccept = _refButtonLogin.GetComponent<AudioSource>();
 
         //soundLoginAccept = _refButtonSounds[0];
@@ -63,10 +63,13 @@ public class HomeManager : MonoBehaviour
         m_prdexUI.SetActive(false);
         if (loadedInfo)
         {
-            //m_homeUI.GetComponent("TextUsername").GetComponent<Text>().text = user.getName();
-            //m_homeUI.GetComponent("TextPuntos").GetComponent<Text>().text = user.getPoints().ToString();
-            //Debug.Log(m_homeUI.GetComponent("TextPuntos").GetComponent<Text>().text);
+            Text[] lines = m_homeUI.GetComponentsInChildren<Text>();
+            lines[0].text = user.getName();
+            lines[1].text = "Pokemons capturados:\t" + user.getPoints().ToString();
+            lines[2].text = "Retos resueltos:\t\t\t\t" + user.getPoints().ToString();
+            lines[3].text = "Puntos Acumulados:\t\t" + user.getPoints().ToString();
             m_homeUI.SetActive(true);
+            //Debug.Log(m_homeUI.GetComponent("TextPuntos").GetComponent<Text>().text);
         }
     }
 
@@ -88,21 +91,11 @@ public class HomeManager : MonoBehaviour
         }
     }
 
-    /*
     public void ShowJuego()
     {
-        soundLoginAccept.Play();
-
-        if (m_userLog.text == "pokeUNI" && m_passLog.text == "p0k3m0n")
-        {
-            //soundLoginAccept.Play();
-            StartCoroutine(SmoothChangeScene());
-        }
-        else
-        {
-            //soundLoginDeny.Play();
-        }
-    }*/
+        soundAccept.Play();
+        StartCoroutine(SmoothChangeScene());
+    }
 
 
     private IEnumerator SmoothChangeScene()

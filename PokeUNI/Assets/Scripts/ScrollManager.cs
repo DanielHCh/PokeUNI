@@ -55,7 +55,7 @@ public class ScrollManager : MonoBehaviour
         {
             // objectA is not the attached GameObject, so you can do all your checks with it.
             var objectA = objectB.transform.GetChild(i);
-            objectA.transform.parent = null;
+            objectA.transform.SetParent(null,false);
             // Optionally destroy the objectA if not longer needed
             //Destroy(objectA);
         }

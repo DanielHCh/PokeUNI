@@ -104,6 +104,6 @@ public class ScreenManager : MonoBehaviour
     private IEnumerator SmoothChangeScene()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("World");
+        SceneManager.LoadScene("UserProfile");
     }
 }
