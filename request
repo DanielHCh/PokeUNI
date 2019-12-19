@@ -1,0 +1,41 @@
+{
+	userid: 45465465,
+	username: "E. Fuckencio Cuadros Nuñez",
+	totalPoints: 8,
+	pokedex:
+		[
+			{
+				name: ratatta,
+				quantity: 2,
+			},
+			{
+				name: pikachu,
+				quantity: 1,
+			},
+      {
+				name: dinouni,
+				quantity: 1,
+			}
+		],
+	retodex:
+		[
+			{
+				question: "3+3",
+				answer: "6",
+				quantity: 2,
+				last_seen: "12/01/2020 12:15:35",
+			},
+			{
+				question: "What did you learn with your career?",
+				answer: "-",
+				quantity: 1,
+				last_seen: "12/05/2020 12:35:45",
+			},
+      {
+				question: "Capital de Irlanda",
+				answer: "Dublín",
+				quantity: 1,
+				last_seen: "12/05/2020 12:35:55",
+			}
+		]
+}
