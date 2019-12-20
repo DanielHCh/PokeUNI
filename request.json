@@ -9,7 +9,7 @@
 				quantity: 2,
 			},
 			{
-				name: pikachu,
+				name: ratuni,
 				quantity: 1,
 			},
       {
@@ -20,14 +20,14 @@
 	retodex:
 		[
 			{
-				question: "3+3",
-				answer: "6",
+				question: "Año de fundación de la empresa NINTENDO",
+				answer: "1889",
 				quantity: 2,
 				last_seen: "12/01/2020 12:15:35",
 			},
 			{
-				question: "What did you learn with your career?",
-				answer: "-",
+				question: "Año de publicación del primer Prince of Persia",
+				answer: "1989",
 				quantity: 1,
 				last_seen: "12/05/2020 12:35:45",
 			},
